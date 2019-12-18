@@ -2,6 +2,9 @@
   "name": "knowledgebase_backend",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "^12.6.0"
+  },
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node ./app.js",
@@ -19,7 +22,9 @@
   },
   "homepage": "https://github.com/johnnyjuarez/knowledgebase_backend#readme",
   "dependencies": {
+    "cfenv": "^1.2.2",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "knex": "^0.20.4",
     "pg": "^7.15.0"
